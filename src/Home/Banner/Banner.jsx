@@ -23,10 +23,10 @@ const Banner = () => {
                         <h2 className="text-5xl font-bold">Junaid Hasan</h2>
                         <p>I am a passionate web developer</p>
                         <div className="flex items-center gap-3 mt-4">
-                            <Slide direction='left'>
+                            {/* <Slide direction='left'>
 
                                 <div><a href='https://drive.google.com/file/d/1S8ipft_mlxilPGYaHZRac6vb6hCWKINn/view' target="_blank" rel="noopener noreferrer" className="btn glass bg-[#ab5ffc] text-white hover:text-black md:mt-0 ">View Resume</a></div>
-                            </Slide>
+                            </Slide> */}
                             <Slide direction='right'>
 
                                 <div><button onClick={handleDownload} className="btn glass bg-[#ab5ffc] text-white hover:text-black">Download Resume <FaDownload></FaDownload></button></div>

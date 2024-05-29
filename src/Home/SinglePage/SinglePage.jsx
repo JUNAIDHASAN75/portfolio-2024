@@ -1,7 +1,9 @@
-import { FaPersonBooth } from "react-icons/fa";
-import { MdContactMail, MdRoomService } from "react-icons/md";
+import { MdContactMail } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
+import { MdOutlineSettings } from "react-icons/md";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
 
 const SinglePage = () => {
     return (
@@ -11,10 +13,10 @@ const SinglePage = () => {
                 <li className='my-2 text-slate-900 font-semibold text-xl hover:text-[black] hover:border-b-2  mx-3  tracking-wide' >
                     <a href="#skils" className="flex flex-col border-b-4"><span className="text-3xl"><GiSkills></GiSkills></span><p>Skills</p></a></li>
                 <li className='my-2 text-slate-900 font-semibold text-xl hover:text-[black] hover:border-b-2  mx-3  tracking-wide' >
-                    <a href="#about" className="flex flex-col border-b-4"><span className="text-3xl"><FaPersonBooth></FaPersonBooth></span><p>About Me</p></a></li>
+                    <a href="#about" className="flex flex-col border-b-4"><span className="text-3xl"><BsFillPersonLinesFill /></span><p>About Me</p></a></li>
 
                 <li className='my-2 text-slate-900 font-semibold text-xl hover:text-[black] hover:border-b-2  mx-3  tracking-wide' >
-                    <a href="#services" className="flex flex-col border-b-4"><span className="text-3xl"><MdRoomService></MdRoomService></span><p>Services</p></a></li>
+                    <a href="#services" className="flex flex-col border-b-4"><span className="text-3xl"><MdOutlineSettings /></span><p>Services</p></a></li>
                 <li className='my-2 text-slate-900 font-semibold text-xl hover:text-[black] hover:border-b-2  mx-3  tracking-wide' >
                     <a href="#project" className="flex flex-col border-b-4"><span className="text-3xl"><GrProjects></GrProjects></span><p>Projects</p></a></li>
                 <li className='my-2 text-slate-900 font-semibold text-xl hover:text-[black] hover:border-b-2  mx-3  tracking-wide' >
